@@ -1,0 +1,19 @@
+import javax.swing.*;
+class gui{
+      public static void main(String args[]){
+           JFrame frame = new JFrame("Inventory");
+           frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+           frame.setSize(300,300);
+          JButton button1 = new JButton("Add");
+          JButton button2 = new JButton("Modify");
+          JButton button3 = new JButton("Delete");
+          JButton button4 = new JButton("Search");
+          JButton button5 = new JButton("Exit");
+          frame.getContentPane().add(button1);
+          frame.getContentPane().add(button2);
+          frame.getContentPane().add(button3);
+          frame.getContentPane().add(button4);
+          frame.getContentPane().add(button5);
+          frame.setVisible(true);
+     }
+}
